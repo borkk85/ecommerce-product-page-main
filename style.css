@@ -542,7 +542,7 @@ header {
     position: relative;
   }
 
-  .hero-section .images-section .main-image a.show {
+  .hero-section .images-section .main-image a {
     display: flex;
     align-items: center;
     position: absolute;
@@ -556,10 +556,12 @@ header {
     cursor: pointer;
   }
   .hero-section .images-section .main-image .left {
+    display: block;
     left: 2.5rem;
   }
   .hero-section .images-section .main-image .right {
-    right: 1.5rem;
+    display: block;
+    right: 1.7rem;
   }
 
   .item-name {
